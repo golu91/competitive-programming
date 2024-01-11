@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    long long a,b,c,d,ans;
+    cin >>a>>b>>c>>d;
+    a=a%100;//coz we only care abt last 2 digits bro:))
+    b=b%100;
+    c=c%100;
+    d=d%100;
+    ans=(a*b*c*d)%100;
+    if(ans<10)
+    cout<<0<<ans;
+    else
+    cout<<ans;
+}
