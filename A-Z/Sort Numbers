@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int A,B,C,x,y,z;
+    cin >> A >> B >> C;
+    x=A;
+    y=B;
+    z=C;
+    if(A>B)
+    swap(A,B);
+    if(B>C)
+    swap(B,C);
+    if(A>B)
+    swap(A,B);
+    cout << A << endl << B << endl << C << endl << endl;
+    cout << x << endl << y << endl << z << endl;
+}
