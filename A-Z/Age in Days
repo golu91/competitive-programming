@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int N,y,m;
+    cin >> N;
+    y=N/365;
+    m=(N-(365*y))/30 ;
+    cout << y << " years" << endl << m << " months" << endl <<  (N-(365*y))%30<< " days" << endl;
+}
